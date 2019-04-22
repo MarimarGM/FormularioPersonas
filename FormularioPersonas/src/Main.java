@@ -11,9 +11,8 @@ public class Main {
 		
 		while (!variableString.equals("5")) {
 			Interfaz.mostrarInterfaz();
-			Scanner s = new Scanner(System.in);
 			System.out.println("Elige una opción:");
-			variableString = s.next();
+			variableString = new Scanner(System.in).next();
 			
 			if (variableString.equals("1")) {
 				Interfaz.crearPersona(listaPersonas);

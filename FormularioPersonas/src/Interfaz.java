@@ -18,13 +18,12 @@ public class Interfaz {
 	}
 	
 	public static List<Persona> crearPersona(List<Persona> listaPersonas) {
-		Scanner s = new Scanner(System.in);
 		System.out.println("Introduzca el nombre de la persona:");
-		String nombre = s.next();
+		String nombre = new Scanner(System.in).next();
 		System.out.println("Apellidos de la persona");
-		String apellidos = s.next();
+		String apellidos = new Scanner(System.in).next();
 		System.out.println("Email de la persona");
-		String mail = s.next();
+		String mail = new Scanner(System.in).next();
 		
 		Persona p = new Persona(nombre, apellidos, mail);
 		listaPersonas.add(p);
