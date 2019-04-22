@@ -9,11 +9,11 @@ public class Interfaz {
 	//método
 	public static void mostrarInterfaz() {
 		System.out.println("----------------------------------------");
-		System.out.println("1.Nuevo usuario.");
-		System.out.println("2.Mostrar usuarios.");
-		System.out.println("3.Borrar usuario.");
-		System.out.println("4.Actualizar usuario.");
-		System.out.println("5.Salir.");
+		System.out.println("1. Nuevo usuario.");
+		System.out.println("2. Mostrar usuarios.");
+		System.out.println("3. Borrar usuario.");
+		System.out.println("4. Actualizar usuario.");
+		System.out.println("5. Salir.");
 		System.out.println("----------------------------------------");
 	}
 	
